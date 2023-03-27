@@ -1,0 +1,27 @@
+#Key Differences between WebGL vs OpenGL
+Both are popular choices in the market; let us discuss some of the major difference:
+
+WebGL is based on OpenGL ES, which lacks the many features that regular OpenGL is having, like it supports only vertex and fragment shaders. OpenGL has features that are not in WebGL like geometry shaders, tessellation shaders, and compute shaders.
+WebGL is mainly used for browsers. OpenGL do need native drivers and is mainly oriented to install the software.
+WebGL is used for web applications, and OpenGL is used for many video games.
+WebGL is easier to learn and develop applications. OpenGL can be learned easily if once you are familiar with WebGL.
+In WebGL, it can fake 3D texture with the help of using 2D texture. In OpenGL, it is not required to do as it has a lot of features like geometry and shaders.
+In WebGL, it is forced to learn to use shaders and buffers from the start. In OpenGL, it is not like that.
+WebGL has less learning curve as it has fewer features. OpenGL has a bigger learning curve as it is having a lot of features, including WebGL has.
+WebGL is based on OpenGL ES 2, which is not plain OpenGL. OpenGL ES is the subset of OpenGL. OpenGL ES has fewer capabilities and is very simpler for a user. OpenGL has a lot of capabilities and difficult to use.
+WebGL vs OpenGL Comparison Table
+Below is the top Comparison between WebGL vs OpenGL –
+
+The basis Of Comparison 	
+WebGL
+
+OpenGL
+
+Definition	It is designed for rendering 2D and 3D graphics.	It is a cross-language and platform API to render 2D and 3D vector graphics.
+Application	It is mainly used to run in the browser for web applications.	It is mainly used in desktop applications.
+Programmed	It is programmed in JavaScript programming.	It is written in C language.
+Features	It has fewer features comparatively.	It has many features to make the application or graphics more interactive.
+Pipeline	In WebGL, there is no fixed-function pipeline.	In OpenGL, there is a fixed function pipeline.
+Website	https://www.khronos.org/webgl/	Opengl.org
+Conclusion
+OpenGL vs WebGL both are graphics library to render two dimensional and three-dimensional graphics. WebGL is being used in the HTML canvas element, which means it can be incorporated with HTML language. WebGL is easy to learn as it is simple and easy to use in javascript and Html. OpenGL does require good knowledge to work with and develop the application.
